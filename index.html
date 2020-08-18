@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Stress Test</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h3 class="display-4 text-center">Stress Test</h3>
+    </div>
+    <form id="stressForm">
+      <!-- Warning Signs -->
+      <div class="control-group">
+        <p><b>Check all warning signs that apply to you:</b></p>
+        <input type="checkbox" name="warning-signs" value="sleep"> Loss of sleep<br>
+        <input type="checkbox" name="warning-signs" value="overwhelmed"> Feeling overwhelmed<br>
+        <input type="checkbox" name="warning-signs" value="aches"> Aches and pains<br>
+        <input type="checkbox" name="warning-signs" value="nausea"> Nausea/dizziness<br>
+        <input type="checkbox" name="warning-signs" value="colds"> Frequent colds or flu<br>
+      </div>
+      <br>
+      <!-- Health Symptoms -->
+      <div class="control-group">
+        <p><b>Check all symptoms that apply to you:</b></p>
+        <input type="checkbox" name="health-symptoms" value="blood"> High blood pressure<br>
+        <input type="checkbox" name="health-symptoms" value="anxiety"> Anxiety<br>
+        <input type="checkbox" name="health-symptoms" value=""> Headaches<br>
+        <input type="checkbox" name="health-symptoms" value="energy"> Loss of energy<br>
+        <input type="checkbox" name="health-symptoms" value="chest"> Chest pain and rapid heartbeat<br>
+      </div>
+      <br>
+      <!-- Recommended Coping Methods -->
+      <div class="control-group">
+        <p><b>Check all coping methods that you currently use:</b></p>
+        <input type="checkbox" name="coping-methods" value="meditate"> Meditate<br>
+        <input type="checkbox" name="coping-methods" value="Time"> Time Management<br>
+        <input type="checkbox" name="coping-methods" value="talk"> Positive Self Talk<br>
+        <input type="checkbox" name="coping-methods" value="pet"> Pet Therapy<br>
+        <input type="checkbox" name="coping-methods" value="exercise"> Exercise<br>
+      </div>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+     <!-- Return -->
+    <div id="return">
+
+    </div>
+  </div>
+</body>
+</html>
